@@ -3,11 +3,12 @@
 #   owner       = "devops-team"
 # }
 
-# rgs = {
-#   "rg1" = {
-#     rg_name  = "rg-example-1"
-#     location = "eastus"
-#   }
+ rgs = {
+   "rg1" = {
+     rg_name  = "jenkinsrg"
+     location = "eastus"
+   }
+}
 #   "rg2" = {
 #     rg_name  = "rg-example-2"
 #     location = "westus"
